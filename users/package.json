@@ -1,0 +1,17 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.1",
+    "mongoose": "^5.8.10",
+    "nodemon": "^2.0.2"
+  }
+}
