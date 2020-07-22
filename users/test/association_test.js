@@ -16,7 +16,7 @@ describe('Associations', () => {
     blogPost.comments.push(comment);
     comment.user = joe;
 
-    Promise.all([ joe.save(), blogPosts.save(), comment.save() ])
+    Promise.all([ joe.save(), blogPost.save(), comment.save() ])
       .then(() => done());
   });
 
